@@ -36,17 +36,17 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
 
 ### 2. Obter Dados (GET)
 
-Rota: /data
-Método: GET
+- **Rota:** `/data`
+- **Método:** GET
+- **Resposta de Sucesso (200 OK):**
 
-Resposta de Sucesso (200 OK):
-```
-{
+  ```json
+  {
   "temperatura": 25.5,
   "umidade": 50,
   "data": "2023-09-10T12:00:00"
-}
-```
+  }
+  ```
 
 ### Configuração do Servidor
 O servidor está configurado para permitir solicitações de qualquer origem devido à configuração de CORS.
@@ -63,8 +63,8 @@ O servidor estará disponível em http://localhost:3333 por padrão, a menos que
 ## Pré-requisitos
 Antes de usar esta API, certifique-se de ter as seguintes dependências instaladas:
 
-[![Node.js](https://nodejs.org/pt-br)
-[![npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Node.js](https://nodejs.org/pt-br)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para melhorar esta API ou relatar problemas.

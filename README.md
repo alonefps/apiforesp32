@@ -26,9 +26,9 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
     "data": "2023-09-10T12:00:00"
   }
   ```
-- Resposta de Sucesso (201 Created):
+- **Resposta de Sucesso (201 Created):**
 
- ```json
+  ```json
   {
    "message": "Dados recebidos com sucesso!"
   }

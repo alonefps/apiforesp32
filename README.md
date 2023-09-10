@@ -19,7 +19,7 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
 - **Método:** POST
 - **Corpo da Requisição (JSON):** 
 
-  ```json
+  ```
   {
     "temperatura": 25.5,
     "umidade": 50,

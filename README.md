@@ -21,9 +21,9 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
 
   ```json
   {
-   "temperatura": temperatura,
-   "umidade": umidade,
-   "data": data
+   "temperatura": "{temperatura}",
+   "umidade": "{umidade}",
+   "data": "{data}"
   }
   ```
 - **Resposta de Sucesso (201 Created):**
@@ -48,7 +48,7 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
   }
   ```
 
-### Configuração do Servidor
+## Configuração do Servidor
 O servidor está configurado para permitir solicitações de qualquer origem devido à configuração de CORS.
 
 ## Executando o Servidor

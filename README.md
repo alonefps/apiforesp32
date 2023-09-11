@@ -21,9 +21,9 @@ Esta é uma API simples desenvolvida para permitir que o seu dispositivo ESP32 e
 
   ```json
   {
-   "temperatura": {temperatura},
-   "umidade": {umidade},
-   "data": {data}"
+   "temperatura": temperatura,
+   "umidade": umidade,
+   "data": data
   }
   ```
 - **Resposta de Sucesso (201 Created):**
